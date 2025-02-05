@@ -1264,7 +1264,8 @@ section .box .title h2 {
     line-height: 2rem;
 }
 
-.logo .content button {
+.logo .content a {
+    display: inline-block;
     font-family: 'pretendard-r';
     font-size: 1.2rem;
     padding: 0.7rem 1.3rem;
@@ -1277,18 +1278,18 @@ section .box .title h2 {
     transition: all .3s;
 }
 
-.logo .content button.on {
+.logo .content a.on {
     background-color: #fff;
     color: #000;
 }
 
-.logo .content button:hover {
+.logo .content a:hover {
     color: #000;
     background-color: #fff;
     border: 1px solid #000;
 }
 
-.logo .content button.on:hover {
+.logo .content a.on:hover {
     background-color: #000;
     border: 1px solid #fff;
     color: #fff;
